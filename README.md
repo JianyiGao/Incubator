@@ -1,3 +1,13 @@
+## Incubator
+To start
+```
+git clone
+npm install
+npm start
+The starting page can be reached at localhost:3000
+```
+
+
 [![Gitter](https://badges.gitter.im/JoinChat.svg)](https://gitter.im/linnovate/mean?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # [![MEAN Logo](http://mean.io/wp-content/themes/twentysixteen-child/images/meanlogo.png)](http://mean.io/) MEAN<sup>2</sup>
@@ -17,7 +27,7 @@ The default MEAN stack you get out of the box can work with either Angular or Re
 * [Innograph](https://github.com/linnovate/innograph) (uses GraphQL for schema standartization)
 * [Bit](https://bitsrc.io/) - (Manages js components, services and schemas)
 
-If you're looking for the classic angular-1.x version of mean, it has moved to this [1.x branch](https://github.com/linnovate/mean/tree/1.x). 
+If you're looking for the classic angular-1.x version of mean, it has moved to this [1.x branch](https://github.com/linnovate/mean/tree/1.x).
 
 ## Prerequisite Technologies
 
@@ -53,7 +63,7 @@ Click the following button to deploy MEAN.IO on Microsoft Azure public cloud:
 * [Mongoose](http://mongoosejs.com/) - Mongoose provides a straight-forward, schema-based solution to model your application data. It includes built-in type casting, validation, query building, business logic hooks and more, out of the box.
 * [Bootstrap](http://getbootstrap.com/) - Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
 * [Karma](https://karma-runner.github.io/1.0/index.html) - A simple tool that allows you to execute JavaScript code in multiple real browsers. Mainly on testing purposes.
-* [Protractor](http://www.protractortest.org/#/) - Protractor is an end-to-end test framework for Angular and AngularJS applications. Protractor runs tests against your application running in a real browser, interacting with it as a user would. 
+* [Protractor](http://www.protractortest.org/#/) - Protractor is an end-to-end test framework for Angular and AngularJS applications. Protractor runs tests against your application running in a real browser, interacting with it as a user would.
 * [Jasmine](https://jasmine.github.io/) - Jasmine is a behavior-driven development framework for testing JavaScript code. It does not depend on any other JavaScript frameworks
 * [Istanbul](https://istanbul.js.org/) - Istanbul instruments your ES5 and ES2015+ JavaScript code with line counters, so that you can track how well your unit-tests exercise your codebase.
 * [TypeScript](https://www.typescriptlang.org/) - TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
