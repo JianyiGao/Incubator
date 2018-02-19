@@ -9,6 +9,6 @@
   ```
   cd mean-master
   sudo npm install
-  sudo bower install
-  sudo npm start
+  bower install
+  npm start
   ```
