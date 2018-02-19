@@ -7,6 +7,7 @@
 # Run 
 
   ```
+  cd meanjs
   sudo npm install
   sudo npm start
   ```
