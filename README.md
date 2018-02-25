@@ -5,10 +5,16 @@
  ```
 
 # Run 
-
   ```
   cd mean-master
   sudo npm install
   bower install
   npm start
   ```
+
+# Current Modules
+- Articles (Demo)
+- Calendar (Open source, to be replaced with Google Calendar)
+- Chat (Demo) 
+- Core
+- Users (Demo)
