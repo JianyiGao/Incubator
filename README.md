@@ -6,7 +6,7 @@
 
 # Run 
   ```
-  cd mean-master
+  cd meanjs
   sudo npm install
   bower install
   npm start
