@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo');
+.home {
+  font-family: 'Cinzel', serif;
+}
 .content {
   margin-top: 50px;
+  padding-top: 1%;
 }
 .undecorated-link:hover {
   text-decoration: none;
@@ -40,4 +46,184 @@ a:hover .header-profile-image {
 }
 .has-error .help-inline.error-text {
   display: inline;
+}
+.overlay {
+  position: absolute;
+  width: 31%;
+  background-color: rgba(191, 183, 176, 0.6);
+  margin-left: 57%;
+  margin-top: 13%;
+  padding:5%;
+  padding-bottom: 9.5%;
+}
+.coverIcon {
+  width: 50px;
+  display: inline-block;
+  bottom: 5%;
+}
+#cover_calender {
+  left: 22%;
+  position: absolute;
+}
+#cover_resource {
+  left: 42%;
+  position: absolute;
+}
+#cover_achievement {
+  left: 62%;
+  position: absolute;
+}
+#title {
+  font-size: 30px;
+  font-weight: 700;
+}
+#intro {
+  font-size: 20px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 100;
+}
+/*#coverImg {
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform:translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  background-color: ;
+  color: black;
+  font-weight: 700;
+}*/
+.btn-default:hover, .btn-default:focus {
+  background-color: #e0e0e0;
+}
+#logo {
+  margin-top: 50px;
+  width:280px;
+  float:right;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.about {
+  padding-top: 1%;
+}
+.icon {
+  width: 100px;
+  display:inline-block;
+  margin-right: 12%;
+  margin-bottom: 50px;
+}
+#calendar {
+  display: inline-block;
+  margin-right: 5%;
+}
+.highlights {
+    font-size: 23px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+#checkout {
+  width: 300px;
+  height: 50px;
+  font-size: 22px;
+  margin-top: 6%;
+  background-color: ;
+  border-color: #BFB7B0;
+  color: black;
+  position: absolute;
+  left: 75%;
+}
+.highlights li {
+  margin-top: 30px;
+}
+.events {
+  margin-bottom: 50px;
+}
+.join {
+  margin-bottom: 50px;
+}
+#team {
+  width: 100%;
+  position: relative;
+}
+#banner_slogan {
+  position:absolute;
+  font-size: 35px;
+  top: 45%;
+  text-align:center;
+  width: 97.7%;
+  background-color:rgba(173, 166, 159, 0.5);
+  border-color: #fffbfb !important;
+  color: black;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#banner_button {
+  position:absolute;
+  width: 280px;
+  height: 50px;
+  font-size: 25px;
+  margin-top: 8%;
+  background-color: ;
+  border-color: #fffbfb !important;
+  color: black;
+  left: 40%;
+  font-family: 'Nanum Myeongjo', serif;
+}
+.footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 7em;
+  margin-top: -7em;
+  color: #997874;
+  background-color: #4C3532;
+}
+#footer_logo {
+  height: 70px;
+  margin-left: 30px;
+  margin-top:10px;
+  display: inline-block;
+}
+#footer_title {
+  font-size: 24px;
+  display: inline-block;
+  margin-left: 2%;
+  padding-top: 2%;
+  position: absolute;
+}
+#insta {
+  position: absolute;
+  height: 30px;
+  display: inline-block;
+  margin-top: 30px;
+  left: 49%;
+}
+#fb {
+  position: absolute;
+  height: 30px;
+  display: inline-block;
+  margin-top: 30px;
+  left:52%;
+}
+#twitter {
+  position: absolute;
+  height: 30px;
+  display: inline-block;
+  margin-top: 30px;
+  left:46%;
+}
+#snap {
+  position: absolute;
+  height: 30px;
+  display: inline-block;
+  margin-top: 30px;
+  left:55%;
+}
+#youtube {
+  position: absolute;
+  height: 30px;
+  display: inline-block;
+  margin-top: 30px;
+  left:43%;
 }
