@@ -24,6 +24,9 @@
   opacity: 0.8;
   width: 28px;
 }
+a {
+  color:#997874 !important;
+}
 .open .header-profile-image,
 a:hover .header-profile-image {
   opacity: 1;
@@ -60,6 +63,9 @@ a:hover .header-profile-image {
   width: 50px;
   display: inline-block;
   bottom: 5%;
+}
+.container {
+  font-family: 'Nanum Myeongjo', serif;
 }
 #cover_calender {
   left: 22%;
