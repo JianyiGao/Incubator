@@ -55,15 +55,12 @@ a:hover .header-profile-image {
   margin-top: 13%;
   padding:5%;
   padding-bottom: 9.5%;
+  border-radius: 10px;
 }
 .coverIcon {
   width: 50px;
   display: inline-block;
   bottom: 5%;
-}
-#cover_calender {
-  left: 22%;
-  position: absolute;
 }
 #cover_resource {
   left: 42%;
@@ -82,19 +79,6 @@ a:hover .header-profile-image {
   font-family: 'Nanum Myeongjo', serif;
   font-weight: 100;
 }
-/*#coverImg {
-  font-size: 50px;
-  position: absolute;
-  top: 50%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform:translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  background-color: ;
-  color: black;
-  font-weight: 700;
-}*/
 .btn-default:hover, .btn-default:focus {
   background-color: #e0e0e0;
 }
@@ -157,6 +141,7 @@ a:hover .header-profile-image {
   color: black;
   padding-bottom: 20px;
   padding-top: 20px;
+  border-radius: 10px;
 }
 #banner_button {
   position:absolute;
@@ -226,4 +211,8 @@ a:hover .header-profile-image {
   display: inline-block;
   margin-top: 30px;
   left:43%;
+}
+
+.jumbotron {
+  background-image: url("https://wp.homepolish.com/wp-content/uploads/Homepolish-3632-decorating-3aa8613a.jpeg");
 }
