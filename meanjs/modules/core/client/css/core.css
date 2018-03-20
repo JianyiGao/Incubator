@@ -47,28 +47,11 @@ a:hover .header-profile-image {
 .has-error .help-inline.error-text {
   display: inline;
 }
-.overlay {
-  position: absolute;
-  width: 31%;
+
+.icon-box {
   background-color: rgba(191, 183, 176, 0.6);
-  margin-left: 57%;
-  margin-top: 13%;
-  padding:5%;
-  padding-bottom: 9.5%;
   border-radius: 10px;
-}
-.coverIcon {
-  width: 50px;
-  display: inline-block;
-  bottom: 5%;
-}
-#cover_resource {
-  left: 42%;
-  position: absolute;
-}
-#cover_achievement {
-  left: 62%;
-  position: absolute;
+  padding: 20px;
 }
 #title {
   font-size: 30px;
@@ -97,10 +80,6 @@ a:hover .header-profile-image {
   display:inline-block;
   margin-right: 12%;
   margin-bottom: 50px;
-}
-#calendar {
-  display: inline-block;
-  margin-right: 5%;
 }
 .highlights {
     font-size: 23px;
@@ -213,6 +192,79 @@ a:hover .header-profile-image {
   left:43%;
 }
 
+.content {
+  margin-top: 0px;
+}
+
 .jumbotron {
-  background-image: url("https://wp.homepolish.com/wp-content/uploads/Homepolish-3632-decorating-3aa8613a.jpeg");
+  background-image: url("https://42mzqz26jebqf6rd034t5pef-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/063845_008.jpg");
+  background-size: cover;
+  background-repeat: none;
+  height: 100vh;
+}
+
+#jumbotron_logo {
+  background-color: #FFFFFF60;
+  border-radius: 10px;
+  float: right;
+  position: relative;
+  top: 30vh;
+  right: 20px;
+  width: 50%;
+  transition: background-color 0.5s ease;
+}
+#jumbotron_logo:hover {
+  background-color: #FFFFFFB0;
+  
+}
+
+#calendar {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+ 
+
+#lab_social_icon_footer {
+  padding: 40px 0;
+  background-color: #F0F0F0;
+}
+
+#lab_social_icon_footer a {
+  color: #333;
+}
+
+#lab_social_icon_footer .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#lab_social_icon_footer .social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+/*
+    Multicoloured Hover Variations
+*/
+
+#lab_social_icon_footer #social-fb:hover {
+  color: #3B5998;
+}
+
+#lab_social_icon_footer #social-tw:hover {
+  color: #4099FF;
+}
+
+#lab_social_icon_footer #social-gp:hover {
+  color: #d34836;
+}
+
+#lab_social_icon_footer #social-em:hover {
+  color: #f39c12;
 }
