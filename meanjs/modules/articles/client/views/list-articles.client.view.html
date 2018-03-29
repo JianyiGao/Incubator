@@ -1,8 +1,147 @@
 <section>
-  <div class="page-header">
-    <h1>Articles</h1>
+  <div class="page-header col-md-10 col-md-offset-1">
+    <h1>Courses</h1>
   </div>
-  <div class="list-group">
+  <div class="listing col-md-10 col-md-offset-1 ">
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h3 class="panel-title">Orientation</h3>
+      </div>
+      <div class="panel-body">
+        <div class="intro col-md-10" style="display: inline-block;">
+          Welcome and meet your peers.
+        </div>
+        <div class="time" style="display: inline-block;">
+          Date: May.1
+          <p>Starts at: 9:30 am</p>
+        </div>
+        <div class="col-md-12">
+         <input ng-model=collapse1 type="checkbox">View Detail
+           <div ng-show=collapse1>
+            <h3> This is where it all begins. During Orientation,
+              we will review the Founder Institute program structure,
+              curriculum, tools, and requirements. You will review
+              why you have pursued entrepreneurship, and how you or your
+              team will use the program to push your business or business
+               idea forward.</h3>
+            <h4>Assignments</h4>
+            <p>During Orientation, Founders and teams will be segmented into the
+             “Standard Founder” or “Advanced Founder” assignment tracks,
+            depending on the stage of their business or business idea.</p>
+            <p>These assignments are in addition to any custom "Special
+               Assignments" Founders receive based on their specific challenges,
+              and below is a small sample of the assignments you’ll complete
+              through Working Groups and Office Hours:</p>
+            <h5>Standard Founder Assignments</h5>
+
+               <p>Progress -
+                 If you have started working on one or more ideas before the program,
+                  outline each of your ideas and any testing or progress made to date.</p>
+               <p>Hotseat Pitch - Prepare a one minute verbal pitch for the weekly
+                 “Founder Hotseat”, where you present to Mentors during the sessions.
+                 Start with our one-sentence pitch template, and if you do not have a
+                 final idea yet, describe yourself and a field that you are passionate
+                 about and uniquely qualified to build a business around.</p>
+               <p>Co-Founders - If you are looking for a Co-founder, create a basic
+                 description of what you are looking for, and this will be shared with
+                 the rest of your cohort.</p>
+            <h5>Advanced Founder Assignments</h5>
+
+               <p>Program Goals - Outline the monthly objectives you or your team
+                 want to achieve with your business while participating in Founder
+                 Institute, including the specific support you feel that we can give
+                 you to succeed beyond the curriculum.</p>
+               <p>Key Performance Indicators - Outline the specific metrics or key
+                  performance indicators (KPIs) that you are currently using to track
+                   success. Analyze the validity of these metrics, and create a plan
+                  to share updated metrics and progress with your Directors every
+                  week in the program.</p>
+               <p>Hotseat Pitch - Prepare a one minute verbal pitch for the weekly
+                  “Founder Hotseat”, where you present to Mentors during the sessions.
+                   Start with our one-sentence pitch template, followed by why you
+                   are uniquely qualified to pursue the idea, and any progress that
+                  you’ve made to date.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title">Orientation</h3>
+      </div>
+      <div class="panel-body">
+        <div class="intro col-md-10" style="display: inline-block;">
+          Welcome and meet your peers.
+        </div>
+        <div class="time" style="display: inline-block;">
+          Date: May.1
+          <p>Starts at: 9:30 am</p>
+        </div>
+        <div class="col-md-12">
+         <input ng-model=collapse type="checkbox">View Detail
+           <div ng-show=collapse>
+            <h3> This is where it all begins. During Orientation,
+              we will review the Founder Institute program structure,
+              curriculum, tools, and requirements. You will review
+              why you have pursued entrepreneurship, and how you or your
+              team will use the program to push your business or business
+               idea forward.</h3>
+
+
+            <h4>Assignments</h4>
+
+            <p>During Orientation, Founders and teams will be segmented into the
+             “Standard Founder” or “Advanced Founder” assignment tracks,
+            depending on the stage of their business or business idea.</p>
+            <p>These assignments are in addition to any custom "Special
+               Assignments" Founders receive based on their specific challenges,
+              and below is a small sample of the assignments you’ll complete
+              through Working Groups and Office Hours:</p>
+
+
+            <h5>Standard Founder Assignments</h5>
+
+               <p>Progress -
+                 If you have started working on one or more ideas before the program,
+                  outline each of your ideas and any testing or progress made to date.</p>
+               <p>Hotseat Pitch - Prepare a one minute verbal pitch for the weekly
+                 “Founder Hotseat”, where you present to Mentors during the sessions.
+                 Start with our one-sentence pitch template, and if you do not have a
+                 final idea yet, describe yourself and a field that you are passionate
+                 about and uniquely qualified to build a business around.</p>
+               <p>Co-Founders - If you are looking for a Co-founder, create a basic
+                 description of what you are looking for, and this will be shared with
+                 the rest of your cohort.</p>
+
+
+            <h5>Advanced Founder Assignments</h5>
+
+               <p>Program Goals - Outline the monthly objectives you or your team
+                 want to achieve with your business while participating in Founder
+                 Institute, including the specific support you feel that we can give
+                 you to succeed beyond the curriculum.</p>
+               <p>Key Performance Indicators - Outline the specific metrics or key
+                  performance indicators (KPIs) that you are currently using to track
+                   success. Analyze the validity of these metrics, and create a plan
+                  to share updated metrics and progress with your Directors every
+                  week in the program.</p>
+               <p>Hotseat Pitch - Prepare a one minute verbal pitch for the weekly
+                  “Founder Hotseat”, where you present to Mentors during the sessions.
+                   Start with our one-sentence pitch template, followed by why you
+                   are uniquely qualified to pursue the idea, and any progress that
+                  you’ve made to date.</p>
+            </div>
+
+         </div>
+       </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+  <!-- <div class="list-group">
     <a ng-repeat="article in vm.articles" ui-sref="articles.view({ articleId: article._id })" class="list-group-item">
       <small class="list-group-item-text">
         Posted on
@@ -14,5 +153,5 @@
       <h4 class="list-group-item-heading" ng-bind="article.title"></h4>
       <p class="list-group-item-text" ng-bind="article.content"></p>
     </a>
-  </div>
+  </div> -->
 </section>
