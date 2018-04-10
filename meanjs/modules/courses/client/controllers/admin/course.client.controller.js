@@ -2,12 +2,12 @@
   'use strict';
 
   angular
-    .module('articles.admin')
-    .controller('ArticlesAdminController', ArticlesAdminController);
+    .module('courses.admin')
+    .controller('CoursesAdminController', CoursesAdminController);
 
-  ArticlesAdminController.$inject = ['$scope', '$state', '$window', 'articleResolve', 'Authentication', 'Notification'];
+  CoursesAdminController.$inject = ['$scope', '$state', '$window', 'articleResolve', 'Authentication', 'Notification'];
 
-  function ArticlesAdminController($scope, $state, $window, article, Authentication, Notification) {
+  function CoursesAdminController($scope, $state, $window, article, Authentication, Notification) {
     var vm = this;
 
     vm.article = article;
@@ -20,7 +20,7 @@
     function remove() {
       if ($window.confirm('Are you sure you want to delete?')) {
         vm.article.$remove(function () {
-          $state.go('admin.articles.list');
+          $state.go('admin.courses.list');
           Notification.success({ message: '<i class="glyphicon glyphicon-ok"></i> Article deleted successfully!' });
         });
       }
@@ -39,7 +39,7 @@
         .catch(errorCallback);
 
       function successCallback(res) {
-        $state.go('admin.articles.list'); // should we send the User to the list or the updated Article's view?
+        $state.go('admin.courses.list'); // should we send the User to the list or the updated Article's view?
         Notification.success({ message: '<i class="glyphicon glyphicon-ok"></i> Article saved successfully!' });
       }
 
